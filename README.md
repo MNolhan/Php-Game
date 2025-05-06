@@ -55,17 +55,29 @@ Bienvenue dans ce petit jeu PHP dans lequel vous incarnez un gardien d’animaux
 ## 📁 Structure du projet
 
 ```
-jeu-animaux/  
-├── index.php  
-├── actions/  
-│   └── nourrir.php  
-├── includes/  
-│   ├── header.php  
-│   └── functions.php  
-├── assets/  
-│   └── style.css  
-├── database.sql  
-└── README.md  
+PHP-GAME/  
+├── app 
+│   ├── Animal
+│   │        └── Animal.php
+│   ├── Personne
+│   │        ├── Brigand.php
+│   │        ├── Chasseur.php
+│   │        └── Voleur.php
+│   ├── Provisions
+│   │        ├── Bandage.php
+│   │        ├── Bebe.php
+│   │        ├── Burger.php
+│   │        ├── Chocolat.php
+│   │        ├── Coca.php
+│   │        ├── Provision.php
+│   │        ├── Viande.php
+│   │        ├── Water.php
+│   │        └── Watermelon.php
+│   └── Partie.php
+├── Interface.php
+├── Main.php
+├── README.md
+└── style.css
 ```
 
 ## 🧑‍💻 Auteur
