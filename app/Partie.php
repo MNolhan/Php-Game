@@ -159,6 +159,10 @@ class Partie {
     }    
     
     public function feedAnimal($ida, $idp){
+        if ($idp == null) {
+            $this->addMessage("Vous n'avez plus de provisions ! Cherchez-en !");
+            return;
+        }
         $animal = $this->animals[$ida];
         $provision = $this->provision[$idp];
         $animal->Consommer($provision);
