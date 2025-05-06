@@ -32,7 +32,7 @@ class Voleur extends Brigand {
 
             $partie->setProvision($listeProvisions);
 
-            $partie->addMessage("{$this->icone} Le voleur a volé toute les provisions !");
+            $partie->addMessage("{$this->icone} Le voleur a volé 3 provisions !");
         } else {
             $partie->addMessage("{$this->icone} Le voleur est venu mais il n'y avait rien à voler !");
         }
