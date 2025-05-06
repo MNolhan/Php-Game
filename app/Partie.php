@@ -207,4 +207,10 @@ class Partie {
         $this->animals[$ida]->Carresser();
     }
 
+    public function SoignerAnimal($ida) {
+        if (!$this->consumePoints(3)) return;
+        
+        $this->animals[$ida]->Soigner();
+    }
+
 }

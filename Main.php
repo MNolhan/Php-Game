@@ -39,6 +39,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['step'])) {
             $ida = $_POST['animal'];
             $partie->carresserAnimal($ida);
             break; 
+        case 'Soigner':
+            $ida = $_POST['animal'];
+            $partie->SoignerAnimal($ida);
+            break;
         case 'feedAnimal':
             $ida = $_POST['animal'];
             $idp = $_POST['provision'];

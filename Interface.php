@@ -111,6 +111,13 @@
                                 <button type="submit">🤚 Carresser 🤚</button>
                             </form>
                         </div>
+                        <div class="Soigner">
+                            <form action="Main.php" method="post">
+                                <input type="hidden" name="animal" value="<?= $ida ?>">
+                                <input type="hidden" name="step" value="Soigner">
+                                <button type="submit">🩹 Soigner 🩹</button>
+                            </form>
+                        </div>
                     </div>
                 <?php endforeach ?>
             </div>

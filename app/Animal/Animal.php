@@ -125,10 +125,12 @@ class Animal
     public function Carresser() {
         $points = rand(0, 30);
         $this->ChangeVie($points);
-    
-        $partie = \App\Partie::GetInstance();
     }
-    
+
+    public function Soigner() {
+        $points = rand(20, 100);
+        $this->ChangeVie($points);
+    }
 }
 
 
