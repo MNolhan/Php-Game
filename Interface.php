@@ -61,6 +61,14 @@
                     <option>🦧</option>
                     <option>🐍</option>
                     <option>🦁</option>
+                    <option>🦒</option>
+                    <option>🧸</option>
+                    <option>🐈</option>
+                    <option>🐕‍🦺</option>
+                    <option>🐢</option>
+                    <option>🐰</option>
+                    <option>🦓</option>
+                    <option>🐀</option>
                 </select>
                 <button type="submit">Créer</button>
             </form>
