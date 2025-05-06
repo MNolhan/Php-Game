@@ -44,13 +44,17 @@ class Partie {
             }
             return true;
         });
-        
-        if (rand(1, 100) <= 15) { 
-            (new \App\Personne\Chasseur())->attaquer();
+
+        if ($this->jour > 9) { #  Pour mettre un niveau de difficulté j'ajoute le Chasseur que à partir d'un certain nombre de jour
+            if (rand(1, 100) <= 15) { 
+                (new \App\Personne\Chasseur())->attaquer();
+            }
         }
         
-        if (rand(1, 100) <= 15) {
-            (new \App\Personne\Voleur())->voler();
+        if ($this->jour > 19) { # Pareil pour le Voleur
+            if (rand(1, 100) <= 15) {
+                (new \App\Personne\Voleur())->voler();
+            }
         }
         
         if (count($this->animals) == 0){
