@@ -124,7 +124,7 @@ class Animal
 
     public function Carresser() {
         $points = rand(0, 30);
-        $this->ChangeVie($points);
+        $this->ChangeHumeur($points);
     }
 
     public function Soigner() {
