@@ -35,13 +35,20 @@ Bienvenue dans ce petit jeu PHP dans lequel vous incarnez un gardien d’animaux
 
 ### 2. Installation
 
-```bash
 1. **Cloner le projet** ou télécharger les fichiers ZIP  
+```bash
    git clone https://github.com/votre-utilisateur/jeu-animaux-php.git  
+```
+
 2. Copier le dossier du jeu dans le répertoire suivant :  
+```bash
    C:\wamp64\www\jeu-animaux  
+```
+
 3. Lancer **WAMP** et attendre que l’icône devienne **verte** dans la barre des tâches  
+
 4. Ouvrir votre navigateur et accéder à :  
+```bash
    http://localhost/jeu-animaux/
 ```
 
