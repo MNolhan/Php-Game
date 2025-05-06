@@ -54,7 +54,7 @@
         <div class="form-container">
             <form action="Main.php" method="post">
                 <input type="hidden" name="step" value="createAnimal">
-                <input type="text" name="nom" placeholder="Nom de votre Animal...">
+                <input type="text" name="nom" placeholder="Nom de votre Animal..." required>
                 <select name="icone">
                     <option>🪰</option>
                     <option>🐘</option>

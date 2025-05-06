@@ -171,6 +171,7 @@ class Partie {
         $provision = $this->provision[$idp];
         $animal->Consommer($provision);
         unset($this->provision[$idp]);
+        if (!$this->consumePoints(1)) return;
     }
     
     
