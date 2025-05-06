@@ -15,14 +15,14 @@ Bienvenue dans ce petit jeu PHP dans lequel vous incarnez un gardien d’animaux
 
 ## 📄 Liste des Provisions : 
 
-- Bandage : Soigne un animal en lui redonnant entre 20 et 100 points de vie
-- Bebe : donne +25 de tout sauf de l'humeur
-- Burger : enlève la faim complète mais à de petits effets secondaire
-- Chocolat : redonne l'intégralité de l'humeur et redonne la moitié de la vie
-- Coca : redonne de l'humeur mais après en avoir bu on peut plus s'arrêter, il fait perdre un peu de soif
-- Viande : de la bonne viande qui donne soif mais rééquilibre le régime
-- Water : L'eau c'est bon mais c'est pas cool
-- Watermelon : redonne de la faim comme de la soif
+- **Bandage** : Soigne un animal en lui redonnant entre 20 et 100 points de vie
+- **Bebe** : donne +25 de tout sauf de l'humeur
+- **Burger** : enlève la faim complète mais à de petits effets secondaire
+- **Chocolat** : redonne l'intégralité de l'humeur et redonne la moitié de la vie
+- **Coca** : redonne de l'humeur mais après en avoir bu on peut plus s'arrêter, il fait perdre un peu de soif
+- **Viande** : de la bonne viande qui donne soif mais rééquilibre le régime
+- **Water** : L'eau c'est bon mais c'est pas cool
+- **Watermelon** : redonne de la faim comme de la soif
 
 ## ⚙️ Installation avec WAMP
 
